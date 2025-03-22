@@ -1,0 +1,11 @@
+let a = parseInt(prompt("Nhập số"));
+if (IsNaN(a)){
+    console.log("Số không hợp lệ")
+}
+if ((a % 4 === 0 && a % 100 !== 0) || (a % 400 === 0)){
+    console.log("Năm nhuận")
+}
+else {
+    console.log("Năm không nhuận")
+}
+
