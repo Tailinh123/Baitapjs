@@ -1,0 +1,15 @@
+let a = parseFloat(prompt("Nhập điểm"));
+
+if (isNaN(a)) {
+    console.log("Số không hợp lệ");
+} else if (a >= 9) {
+    console.log("Xuất sắc");
+} else if (a >= 8) {  
+    console.log("Giỏi");
+} else if (a >= 6.5) {
+    console.log("Khá");
+} else if (a >= 5) {
+    console.log("Trung bình");
+} else {
+    console.log("Yếu");
+}
